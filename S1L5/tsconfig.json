@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ES6", 
+      "lib": ["dom", "es2015", "es2015.iterable"],
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    }
+  }
+  
