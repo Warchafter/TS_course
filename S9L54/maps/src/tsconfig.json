@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",            // Or "ES2015"
+    "lib": ["ES6", "DOM"],      // Add "DOM" if you’re working with web APIs
+    "module": "commonjs",       // Or your preferred module system
+    "strict": true,             // Enable strict type-checking options
+    "esModuleInterop": true,    // Enable interop between ES modules and CommonJS modules
+    "skipLibCheck": true        // Skip type checking of declaration files (optional)
+  }
+}

@@ -1,6 +1,30 @@
 import { User } from './User';
 import { Company } from './Company';
 
+// Instructions to every other class
+// on how they can be an argument to 'addMarker'
+// interface Mappable {
+//     locatin: {
+//         lat: number;
+//         lng: number;
+//     };
+// }
+
+// export class CustomMap {
+//     private googleMap: google.maps.Map;
+
+//     constructor(divId: string) {
+//         this.googleMap = new this.googleMap.maps.Map(document.getElementById('maps') => {
+//             zoom: 1,
+//             center: {
+//                 lat: 0,
+//                 lng: 0
+//             }
+//         });
+//     }
+// };
+
+
 export class CustomMap  {
     private googleMap!: google.maps.Map;
 
