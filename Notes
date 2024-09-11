@@ -1,3 +1,13 @@
 Notes for TypeScript usage:
 
 parcel builder is used to run the TypeScript apps with the index.html file set up, using: ´npx parcel.html´
+
+
+$$ for json server DB:
+
+First, you need to check json-server installed globally or not. or you can install it globally by
+
+npm install -g json-server
+If you install it locally in your project, use npx to run it
+
+npx json-server --watch db.json
